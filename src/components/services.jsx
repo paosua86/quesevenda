@@ -3,7 +3,7 @@ import React from "react";
 function Services() {
   return (
     <section class="bg-custom-bg py-16" id="servicios">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4 xs:p-2 xs:pt-24 md:pt-24 md:p-5">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-1/3 px-4 mb-8">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -31,7 +31,7 @@ function Services() {
                   efectiva.
                 </p>
                 <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                  <a href="https://wa.me/593998536569?text=Hola!%20vengo%20de%20tu%20pagina%20web%20y%20tengo%20preguntas%20sobre%20paginas%20web" target="_blank" rel="noreferrer" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
                     Saber más
                   </a>
                 </button>
@@ -65,7 +65,7 @@ function Services() {
                   sea que estén, con una experiencia de usuario inigualable.
                 </p>
                 <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                  <a href="https://wa.me/593998536569?text=Hola!%20vengo%20de%20tu%20pagina%20web%20y%20tengo%20preguntas%20sobre%20aplicaciones%20móviles" target="_blank" rel="noreferrer" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
                     Saber más
                   </a>
                 </button>
@@ -100,7 +100,7 @@ function Services() {
                   fidelización de clientes.
                 </p>
                 <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                <a href="https://wa.me/593998536569?text=Hola!%20vengo%20de%20tu%20pagina%20web%20y%20tengo%20preguntas%20sobre%20Bots" target="_blank" rel="noreferrer" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
                     Saber más
                   </a>
                 </button>

@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.286",
     "aos": "^2.3.4",

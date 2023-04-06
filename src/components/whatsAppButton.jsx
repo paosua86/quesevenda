@@ -1,10 +1,10 @@
 import React from 'react';
-import './style.css';
+import './whatsappstyle.css';
 
 class Whatsapp extends React.Component {
   render() {
     return (
-      <a className="whatsapp_btn" href="https://wa.me/593998049134?text=Hola%20quiero%20cotizar%20un%20seguro" target="_blank" rel="noreferrer">
+      <a className="whatsapp_btn" href="https://wa.me/593998536569?text=Hola!%20vengo%20de%20tu%20pagina%20web%20y%20tengo%20preguntas" target="_blank" rel="noreferrer">
         <img src="./whatsapp_btn.svg" alt="whatsapp" />
       </a>
     );

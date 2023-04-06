@@ -5,10 +5,10 @@ function Recursos() {
     <section class="bg-custom-bg py-16">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
-          <h2 class="text-3xl font-bold text-gray-800 mb-2">
+          <h2 class="text-5xl font-bold text-white mb-2">
             Recursos descargables
           </h2>
-          <p class="text-gray-600">
+          <p class="text-white">
             Aquí encontrarás recursos gratuitos para ayudar a tu negocio a
             crecer y mejorar.
           </p>
@@ -18,7 +18,7 @@ function Recursos() {
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 class="h-48 w-full object-cover"
-                src="https://via.placeholder.com/300x150"
+                src="./mano1.png"
                 alt="Resource 1"
               />
               <div class="py-6 px-8">
@@ -41,7 +41,7 @@ function Recursos() {
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 class="h-48 w-full object-cover"
-                src="https://via.placeholder.com/300x150"
+                src="./mano2.png"
                 alt="Resource 2"
               />
               <div class="py-6 px-8">
@@ -64,7 +64,7 @@ function Recursos() {
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
               <img
                 className="h-48 w-full object-cover"
-                src="https://via.placeholder.com/300x150"
+                src="./mano3.png"
                 alt="Resource 3"
               />
               <div class="py-6 px-8">

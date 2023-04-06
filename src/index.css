@@ -7,6 +7,9 @@
   src: url(./Blanka-Regular.otf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
   section {
     width: 100%;

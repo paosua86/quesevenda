@@ -2,14 +2,21 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <nav class="bg-gray-bg border-gray-200 dark:bg-gray-900 fixed inset-x-0 z-10">
+        <nav class="bg-gray-bg border-gray-200 dark:bg-gray-900 fixed inset-x-0 z-30">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
                 <a href="/" class="flex items-center">
                     <img src="./logo.svg" class="h-20 mr-3" alt="Que se Venda" />
                 </a>
                 <div class="flex items-center md:order-2">
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
-                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#FFC400" d="M0 0h512v512H0z" /><path fill="#D80027" d="M0 0h512v341.33H0z" /><path fill="#FFC400" d="M0 0h512v170.67H0z" /><path d="M138.667 213.333h234.666v85.333H138.667z" fill="#D80027" /><path d="M256 130.667v250.666l94.293-41.173L256 130.667z" fill="#FFF" /></svg>
+                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path fill="#FFC400" d="M0 0h512v512H0z" />
+                            <path fill="#D80027" d="M0 0h512v341.33H0z" />
+                            <path fill="#FFC400" d="M0 0h512v170.67H0z" />
+                            <path d="M138.667 213.333h234.666v85.333H138.667z" fill="#D80027" />
+                            <polygon points="256,130 256,381 350.293,339.807" fill="#D80027" />
+                        </svg>
+
                         Español (ES)
                     </button>
                     {/* Dropdown */}
@@ -26,7 +33,13 @@ function Navbar() {
                             <li>
                                 <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
                                     <div class="inline-flex items-center">
-                                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#FFC400" d="M0 0h512v512H0z" /><path fill="#D80027" d="M0 0h512v341.33H0z" /><path fill="#FFC400" d="M0 0h512v170.67H0z" /><path d="M138.667 213.333h234.666v85.333H138.667z" fill="#D80027" /><path d="M256 130.667v250.666l94.293-41.173L256 130.667z" fill="#FFF" /></svg>
+                                        <svg class="h-3.5 w-3.5 rounded-full mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="#FFC400" d="M0 0h512v512H0z" />
+                                            <path fill="#D80027" d="M0 0h512v341.33H0z" />
+                                            <path fill="#FFC400" d="M0 0h512v170.67H0z" />
+                                            <path d="M138.667 213.333h234.666v85.333H138.667z" fill="#D80027" />
+                                            <polygon points="256,130 256,381 350.293,339.807" fill="#D80027" />
+                                        </svg>
                                         Español (ES)
                                     </div>
                                 </a>
