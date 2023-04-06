@@ -7,11 +7,13 @@ import Recursos from './components/recursos';
 import Nosotros from './components/nosotros';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import WhatsApp from './components/whatsAppButton';
 
 function App() {
   return (
     <div>
       <Navbar />
+      <WhatsApp />
       <Hero />
       <Services />
       <Testimonios />

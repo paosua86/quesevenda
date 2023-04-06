@@ -2,12 +2,12 @@ import React from "react";
 
 function Services() {
   return (
-    <section class="bg-gray-100 py-16">
+    <section class="bg-custom-bg py-16" id="servicios">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full md:w-1/3 px-4 mb-8">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div class="flex items-center justify-center h-40 bg-indigo-600">
+              <div class="flex items-center justify-center h-40 bg-light-purple">
                 <svg
                   class="h-16 w-16 text-white"
                   fill="none"
@@ -30,18 +30,17 @@ function Services() {
                   para garantizar que su negocio tenga una presencia en línea
                   efectiva.
                 </p>
-                <a
-                  href="#"
-                  class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full"
-                >
-                  Saber más
-                </a>
+                <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                    Saber más
+                  </a>
+                </button>
               </div>
             </div>
           </div>
           <div class="w-full md:w-1/3 px-4 mb-8">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div class="flex items-center justify-center h-40 bg-purple-600">
+              <div class="flex items-center justify-center h-40 bg-purple">
                 <svg
                   class="h-16 w-16 text-white"
                   fill="none"
@@ -65,18 +64,17 @@ function Services() {
                   Android, para que su negocio pueda llegar a sus clientes donde
                   sea que estén, con una experiencia de usuario inigualable.
                 </p>
-                <a
-                  href="#"
-                  class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full"
-                >
-                  Saber más
-                </a>
+                <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                    Saber más
+                  </a>
+                </button>
               </div>
             </div>
           </div>
           <div class="w-full md:w-1/3 px-4 mb-8">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div class="flex items-center justify-center h-40 bg-pink-600">
+              <div class="flex items-center justify-center h-40 bg-green">
                 <svg
                   class="h-16 w-16 text-white"
                   fill="none"
@@ -101,12 +99,11 @@ function Services() {
                   rápida, lo que se traduce en una mayor satisfacción y
                   fidelización de clientes.
                 </p>
-                <a
-                  href="#"
-                  class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
-                >
-                  Saber más
-                </a>
+                <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                    Saber más
+                  </a>
+                </button>
               </div>
             </div>
           </div>

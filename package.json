@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.286",
     "aos": "^2.3.4",
     "flowbite": "^1.6.4",
     "flowbite-react": "^0.4.3",

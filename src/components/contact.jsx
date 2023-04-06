@@ -1,39 +1,40 @@
 import React from 'react';
+import Spline from '@splinetool/react-spline';
+
 
 function Contact() {
     return (
-        <section class="bg-gray-100">
-            <div class="container mx-auto px-4 py-16">
-                <div class="flex flex-wrap">
-                    <div class="w-full md:w-1/2 mb-8 md:mb-0">
-                        <h2 class="text-3xl font-bold mb-4">Contáctanos</h2>
-                        <p class="text-gray-700 mb-8">Ponte en contacto con nosotros para obtener más información sobre nuestros servicios de soluciones de software personalizadas. Puedes enviarnos un correo electrónico a <a href="mailto:info@quesevenda.com" class="text-indigo-600 underline hover:text-indigo-700">info@quesevenda.com</a> o llamarnos al <a href="tel:+15555555555" class="text-indigo-600 underline hover:text-indigo-700">+1-555-555-5555</a>.</p>
-                        <form class="mb-8">
-                            <div class="mb-4">
-                                <label for="nombre" class="block text-gray-700 font-bold mb-2">Nombre:</label>
-                                <input type="text" id="nombre" name="nombre" class="border rounded-lg py-2 px-3 w-full focus:outline-none focus:border-indigo-600" placeholder="Ingrese su nombre completo" />
+
+<div class="w-full h-screen">
+<Spline scene="https://prod.spline.design/VLXbumj01AtjLDER/scene.splinecode" className='absolute'/>
+    <div class="container flex items-center justify-center flex-1 h-full mx-auto">
+        <div class="w-full max-w-lg z-10">
+            <div class="leading-loose">
+                <form class="max-w-sm p-10 m-auto rounded shadow-xl bg-white/25">
+                    <p class="mb-8 text-2xl font-light text-center text-gray">
+                        Contáctanos
+                    </p>
+                    <div class="mb-2">
+                        <div class=" relative ">
+                            <input type="text" id="login-with-bg-email" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="email"/>
                             </div>
-                            <div class="mb-4">
-                                <label for="email" class="block text-gray-700 font-bold mb-2">Correo electrónico:</label>
-                                <input type="email" id="email" name="email" class="border rounded-lg py-2 px-3 w-full focus:outline-none focus:border-indigo-600" placeholder="Ingrese su correo electrónico" />
+                        </div>
+                        <div class="mb-2">
+                            <div class=" relative ">
+                                <input type="text" id="login-with-bg-password" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="password"/>
+                                </div>
                             </div>
-                            <div class="mb-4">
-                                <label for="mensaje" class="block text-gray-700 font-bold mb-2">Mensaje:</label>
-                                <textarea id="mensaje" name="mensaje" class="border rounded-lg py-2 px-3 w-full h-32 resize-none focus:outline-none focus:border-indigo-600" placeholder="Ingrese su mensaje"></textarea>
-                            </div>
-                            <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full">Enviar</button>
+                            <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                            <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0 ">
+                            Enviar
+                            </a>
+                        </button>
                         </form>
                     </div>
-                    <div class="w-full md:w-1/2">
-                        <img src="https://picsum.photos/id/1084/800/600" alt="Imagen de contacto" class="rounded-lg w-full" />
-                    </div>
-                </div>
-                <div class="text-center">
-                    <p class="text-gray-700 mb-4">¿No estás seguro de por dónde empezar? Contáctanos y uno de nuestros especialistas en soluciones de software personalizadas te guiará en el proceso.</p>
-                    <a href="#contacto" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full">Contáctanos</a>
                 </div>
             </div>
-        </section>
+        </div>
+
     );
 }
 

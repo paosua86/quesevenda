@@ -2,7 +2,7 @@ import React from "react";
 
 function Recursos() {
   return (
-    <section class="bg-gray-100 py-16">
+    <section class="bg-custom-bg py-16">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="text-3xl font-bold text-gray-800 mb-2">
@@ -29,12 +29,11 @@ function Recursos() {
                   Descarga esta guía gratuita para conocer las mejores prácticas
                   para hacer que tu negocio sea más eficiente y productivo.
                 </p>
-                <a
-                  href="#"
-                  class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-full"
-                >
-                  Descargar
-                </a>
+                <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                    Descargar
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -53,12 +52,11 @@ function Recursos() {
                   Descarga esta plantilla gratuita para crear un plan de
                   negocios detallado y efectivo para tu empresa.
                 </p>
-                <a
-                  href="#"
-                  class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full"
-                >
-                  Descargar
-                </a>
+                <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                    Descargar
+                  </a>
+                </button>
               </div>
             </div>
           </div>
@@ -78,12 +76,11 @@ function Recursos() {
                   marketing digital para ayudar a tu empresa a crecer y
                   destacarse en línea.
                 </p>
-                <a
-                  href="#"
-                  class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full"
-                >
-                  Descargar
-                </a>
+                <button class="relative inline-flex items-center justify-center p-1 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-full group bg-gradient-to-br  from-gray to-light-purple group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                  <a href="/" class="relative px-8 py-4 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-opacity-0">
+                    Descargar
+                  </a>
+                </button>
               </div>
             </div>
           </div>

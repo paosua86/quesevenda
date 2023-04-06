@@ -2,7 +2,7 @@ import React from "react";
 
 function Testimonios() {
   return (
-    <section className="bg-gray-100 py-16">
+    <section className="bg-custom-bg py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-8">Testimonios</h2>
         <div className="flex flex-wrap -mx-4">

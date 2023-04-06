@@ -2,13 +2,34 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+  font-family: blanka;
+  src: url(./Blanka-Regular.otf);
+}
 
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    width: 100%;
-  }
 
   section {
     width: 100%;
+    min-height: 500px;
+  }
+
+  h1 {
+    font-family: blanka;
+  }
+  h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 15rem;
+  }
+  h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 15rem;
+  }
+  h4 {
+    font-family: 'Playfair Display', serif;
+  }
+  p {
+    font-family: 'Playfair Display', serif;
+  }
+  label {
+    font-family: 'Playfair Display', serif;
   }
