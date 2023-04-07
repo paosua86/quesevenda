@@ -10,8 +10,12 @@ import Footer from './components/footer';
 import WhatsApp from './components/whatsAppButton';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
+// import LanguageSelector from "./components/LanguageSelector";
 
 function App() {
+  const handleLanguageSelected = (language) => {
+    console.log(`Selected language: ${language}`);
+  };
   return (
     <I18nextProvider i18n={i18n}>
       <Navbar />
@@ -19,10 +23,14 @@ function App() {
       <Hero />
       <Services />
       <Testimonios />
+      {/* <div className="App">
+      <LanguageSelector onLanguageSelected={handleLanguageSelected} />
+    </div> */}
       <Recursos />
       <Nosotros />
       <Contact />
       <Footer />
+
     </I18nextProvider>
   );
 }

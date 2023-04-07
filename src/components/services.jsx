@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import en from "../locales/en.json";
-import es from "../locales/es.json";
+
 
 function Services() {
   const { t, i18n } = useTranslation();

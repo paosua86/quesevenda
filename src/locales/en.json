@@ -3,11 +3,11 @@
     "home": "Home",
     "aboutUs": "About Us",
     "services": "Services",
-    "contact": "Contact Us"
+    "contact": "Contact"
   },
   "hero": {
-    "title": "Get it sold",
-    "description": "Our mission is to help businesses succeed in the digital world. We offer custom software solution services designed to improve the efficiency, profitability, and productivity of businesses while allowing them to work better with their employees and serve more quotes.",
+    "title": "Que se Venda (Sell It)",
+    "description": "Our mission is to help businesses succeed in the digital world. We offer custom software solutions designed to improve efficiency, profitability, and productivity, while enabling better collaboration with employees and greater responsiveness to customers.",
     "services": "Services",
     "contact": "Contact Us"
   },
@@ -15,35 +15,52 @@
     "learnMore": "Learn More",
     "web": {
       "title": "Website Design",
-      "description": "We create customized websites focused on the user experience, using the latest technologies to ensure that your business has an effective online presence."
+      "description": "We create custom, user-focused websites using the latest technologies to ensure that your business has an effective online presence."
     },
     "mobile": {
       "title": "Mobile App Development",
-      "description": "We develop customized mobile applications for iOS and Android, so your business can reach your customers wherever they are, with an unmatched user experience."
+      "description": "We develop custom mobile applications for iOS and Android, so your business can reach customers wherever they are, with an unmatched user experience."
     },
     "bot": {
       "title": "Customer Service Bots",
-      "description": "We create customized customer service bots so your company can efficiently and quickly serve your customers, resulting in greater customer satisfaction and loyalty."
+      "description": "We create custom customer service bots so your business can efficiently and quickly serve customers, resulting in greater satisfaction and customer loyalty."
     }
   },
-    "testimonials": {
-      "title": "Testimonials",
-      "testimonial1": {
-        "text": "\"Opting for Que se Venda's services has been a wise decision for our business. Their team is efficient and the software solutions provided have significantly improved our way of working. We appreciate Que se Venda's support.\"",
-        "name": "Satisfied customer",
-        "location": "Quito, Ecuador"
-      },
-      "testimonial2": {
-        "text": "\"Que se Venda's team is exceptional at what they do. They have been a great support for our company, from the creation of our website to the accompaniment for new tools for our business. They have exceeded all our expectations and we are very grateful for their work.\"",
-        "name": "Satisfied customer",
-        "location": "Ambato, Ecuador"
-      },
-      "testimonial3": {
-        "text": "\"Que se Venda provided us with effective solutions for our company. Their customer service is unmatched and they are always willing to help. We highly recommend Que se Venda for any company in need of software solutions.\"",
-        "name": "Satisfied customer",
-        "location": "Quito, Ecuador"
-      }
+  "testimonials": {
+    "title": "Testimonials",
+    "testimonial1": {
+      "text": "Choosing Que se Venda's services has been a wise decision for our business. Their team is efficient, and the software solutions they provided have significantly improved our way of working. We appreciate Que se Venda's support.",
+      "name": "Satisfied Customer",
+      "location": "Quito, Ecuador"
     },
+    "testimonial2": {
+      "text": "The Que se Venda team is exceptional at what they do. They have been a great support for our company, from the creation of our website to the accompaniment for new tools for our business. They have exceeded all our expectations, and we are very grateful for their work.",
+      "name": "Satisfied Customer",
+      "location": "Ambato, Ecuador"
+    },
+    "testimonial3": {
+      "text": "Que se Venda provided us with effective solutions for our company. Their customer service is unmatched, and they are always willing to help. We highly recommend Que se Venda for any company that needs software solutions.",
+      "name": "Satisfied Customer",
+      "location": "Quito, Ecuador"
+    }
+  },
+  "recursos": {
+    "title": "Downloadable Resources",
+    "subtitle": "Here you will find free resources to help your business grow and improve.",
+    "resource1Title": "Guide to Improving Your Business Efficiency",
+    "resource1Desc": "Download this free guide to learn about best practices for making your business more efficient and productive.",
+    "resource2Title": "Business Plan Template",
+    "resource2Desc": "Download this free template to create a detailed and effective business plan for your company.",
+    "resource3Title": "List of Digital Marketing Tools",
+    "resource3Desc": "Download this free list of the best digital marketing tools to help your business grow and stand out online.",
+    "download": "Download"
+  },
+  "nosotros": {
+    "title": "Who We Are",
+    "subtitle": "We are a company dedicated to offering software solutions for businesses of all kinds. Our goal is to help our clients improve their processes and increase sales through technology. We have a team of highly trained professionals in different areas of software development and we strive to offer the best service and customer support.",
+    "buttonText": "Learn More",
+    "teamAlt": "Team"
+  },
   "contactTitle": "Contact Us",
   "formThanks": "Thank you for contacting us!",
   "contact": {

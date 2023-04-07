@@ -44,6 +44,23 @@
       "location": "Quito, Ecuador"
     }
   },
+  "recursos": {
+    "title": "Recursos descargables",
+    "subtitle": "Aquí encontrarás recursos gratuitos para ayudar a tu negocio a crecer y mejorar.",
+    "resource1Title": "Guía para mejorar la eficiencia de tu negocio",
+    "resource1Desc": "Descarga esta guía gratuita para conocer las mejores prácticas para hacer que tu negocio sea más eficiente y productivo.",
+    "resource2Title": "Plantilla de plan de negocios",
+    "resource2Desc": "Descarga esta plantilla gratuita para crear un plan de negocios detallado y efectivo para tu empresa.",
+    "resource3Title": "Lista de herramientas de marketing digital",
+    "resource3Desc": "Descarga esta lista gratuita con las mejores herramientas de marketing digital para ayudar a tu empresa a crecer y destacarse en línea.",
+    "download": "Descargar"
+  },
+  "nosotros": {
+    "title": "¿Quiénes somos?",
+    "subtitle": "Somos una empresa dedicada a ofrecer soluciones de software para negocios de todo tipo. Nuestro objetivo es ayudar a nuestros clientes a mejorar sus procesos y aumentar sus ventas a través de la tecnología. Contamos con un equipo de profesionales altamente capacitados en distintas áreas de desarrollo de software y nos esforzamos por ofrecer el mejor servicio y atención al cliente.",
+    "buttonText": "Saber más",
+    "teamAlt": "Equipo"
+  },
   "contactTitle": "Contáctanos",
   "formThanks": "¡Gracias por contactarnos!",
   "contact": {
