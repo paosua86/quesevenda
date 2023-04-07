@@ -8,10 +8,12 @@ import Nosotros from './components/nosotros';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import WhatsApp from './components/whatsAppButton';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 
 function App() {
   return (
-    <div>
+    <I18nextProvider i18n={i18n}>
       <Navbar />
       <WhatsApp />
       <Hero />
@@ -21,7 +23,7 @@ function App() {
       <Nosotros />
       <Contact />
       <Footer />
-    </div>
+    </I18nextProvider>
   );
 }
 

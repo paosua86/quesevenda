@@ -1,0 +1,61 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "aboutUs": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Que se venda",
+    "description": "Nuestra misión es ayudar a las empresas a tener éxito en el mundo digital. Ofrecemos servicios de soluciones de software personalizadas diseñadas para mejorar la eficiencia, la rentabilidad y la productividad de las empresas, al mismo tiempo que les permiten trabajar mejor con sus empleados y atender más cotizaciones.",
+    "services": "Servicios",
+    "contact": "Contáctanos"
+  },
+  "services": {
+    "learnMore": "Conoce más",
+    "web": {
+      "title": "Diseño de sitios web",
+      "description": "Creamos sitios web personalizados y enfocados en la experiencia del usuario, utilizando las últimas tecnologías para garantizar que su negocio tenga una presencia en línea efectiva."
+    },
+    "mobile": {
+      "title": "Desarrollo de aplicaciones móviles",
+      "description": "Desarrollamos aplicaciones móviles personalizadas para iOS y Android, para que su negocio pueda llegar a sus clientes donde sea que estén, con una experiencia de usuario inigualable."
+    },
+    "bot": {
+      "title": "Bots de atención al cliente",
+      "description": "Creamos bots de atención al cliente personalizados para que su empresa pueda atender a sus clientes de manera eficiente y rápida, lo que se traduce en una mayor satisfacción y fidelización de clientes."
+    }
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "testimonial1": {
+      "text": "Optar por los servicios de Que se Venda ha sido una decisión acertada para nuestro negocio. Su equipo es eficiente y las soluciones de software proporcionadas han mejorado significativamente nuestra forma de trabajar. Agradecemos el apoyo de Que se Venda.",
+      "name": "Cliente satisfecho",
+      "location": "Quito, Ecuador"
+    },
+    "testimonial2": {
+      "text": "El equipo de Que se Venda es excepcional en lo que hacen. Han sido un gran apoyo para nuestra empresa, desde la creación de nuestro sitio web hasta el acompañamiento para nuevas herramientas para nuestro negocio. Han superado todas nuestras expectativas y estamos muy agradecidos con su trabajo.",
+      "name": "Cliente satisfecho",
+      "location": "Ambato, Ecuador"
+    },
+    "testimonial3": {
+      "text": "Que se Venda nos brindó soluciones efectivas para nuestra empresa. Su atención al cliente es inigualable y siempre están dispuestos a ayudar. Recomendamos altamente a Que se Venda para cualquier empresa que necesite soluciones de software.",
+      "name": "Cliente satisfecho",
+      "location": "Quito, Ecuador"
+    }
+  },
+  "contactTitle": "Contáctanos",
+  "formThanks": "¡Gracias por contactarnos!",
+  "contact": {
+    "form": {
+      "name": "Nombre completo",
+      "name_placeholder": "Juan Pérez",
+      "email": "Correo electrónico",
+      "email_placeholder": "juan.perez@empresa.com",
+      "message": "Mensaje",
+      "message_placeholder": "Escribe tus pensamientos aquí...",
+      "subject": "Formulario de contacto",
+      "send_button": "Enviar"
+    }
+  }
+}
