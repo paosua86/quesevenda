@@ -17,7 +17,7 @@ function Navbar() {
         <nav class="bg-gray-bg border-gray-200 dark:bg-gray-900 fixed inset-x-0 z-30">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
                 <a href="/" class="flex items-center">
-                    <img src="./logo.svg" class="h-20 mr-3" alt="Que se Venda" />
+                    <img data-aos="fade-left" src="./logo.svg" class="h-20 mr-3" alt="Que se Venda" />
                 </a>
                 <div class="flex items-center md:order-2">
                     <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">

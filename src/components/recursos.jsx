@@ -38,12 +38,12 @@ function Recursos() {
     <section className="bg-custom-bg py-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-white mb-2">
+          <h2 data-aos="fade-up" className="text-5xl font-bold text-white mb-2">
             {t("recursos.title")}
           </h2>
-          <p className="text-white">{t("recursos.subtitle")}</p>
+          <p data-aos="fade-up" className="text-white">{t("recursos.subtitle")}</p>
         </div>
-        <div className="flex flex-wrap -mx-4">
+        <div  data-aos="fade-up-right" className="flex flex-wrap -mx-4">
           {recursos.map((resource) => (
             <div
               key={resource.id}

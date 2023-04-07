@@ -29,9 +29,9 @@ function Testimonios() {
 
   return (
     <section className="bg-custom-bg py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-bold text-white mb-2">{t("testimonials.title")}</h2>
-        <div className="flex flex-wrap -mx-4">
+      <div  className="container mx-auto px-4">
+        <h2 data-aos="fade-up" className="text-5xl font-bold text-white mb-2">{t("testimonials.title")}</h2>
+        <div data-aos="fade-up-left" className="flex flex-wrap -mx-4">
           {testimonios.map((testimonio) => (
             <div key={testimonio.id} className="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden p-8">

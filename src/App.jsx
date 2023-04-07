@@ -11,10 +11,16 @@ import WhatsApp from './components/whatsAppButton';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 // import LanguageSelector from "./components/LanguageSelector";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const handleLanguageSelected = (language) => {
     console.log(`Selected language: ${language}`);
+
+    useEffect(() => {
+      AOS.init({ duration: 1000 });
+    }, []);
   };
   return (
     <I18nextProvider i18n={i18n}>

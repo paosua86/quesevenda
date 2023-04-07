@@ -29,7 +29,7 @@ function Services() {
   return (
     <section className="bg-custom-bg py-16" id="servicios">
       <div className="container mx-auto px-4 xs:p-2 xs:pt-24 md:pt-24 md:p-5">
-        <div className="flex flex-wrap -mx-4">
+        <div data-aos="fade-up-right" className="flex flex-wrap -mx-4">
           {services.map((service) => (
             <div key={service.id} className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
