@@ -44,7 +44,7 @@ function Hero() {
     }, []);
 
     return (
-        <section className="bg-custom-bg">
+        <section className="bg-custom-bg" id="hero">
             <div className="xs:p-2 xs:pt-24 md:pt-24 md:p-20 flex mx-auto xs:flex xs:flex-col xs:items-center xs:justify-center md:flex-row md:items-center md:justify-between">
                 <div data-aos="fade-right" className="text-white max-w-2xl">
                     <h1 className="text-5xl font-rubik mb-6">{t('hero.title')}</h1>

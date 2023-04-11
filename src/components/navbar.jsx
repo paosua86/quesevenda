@@ -16,7 +16,7 @@ function Navbar() {
     return (
         <nav class="bg-gray-bg border-gray-200 dark:bg-gray-900 fixed inset-x-0 z-30">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
-                <a href="/" class="flex items-center">
+                <a href="#hero" class="flex items-center">
                     <img data-aos="fade-left" src="./logo.svg" class="h-20 mr-3" alt="Que se Venda" />
                 </a>
                 <div class="flex items-center md:order-2">
@@ -66,7 +66,7 @@ function Navbar() {
                 <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-language-select">
                     <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-white md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-gray-bg dark:bg-light-purple md:dark:bg-light-purple dark:border-light-purple">
                         <li>
-                            <a href="/" class="block py-2 pl-3 pr-4 text-light-purple bg-white rounded md:bg-transparent md:text-light-purple md:p-0 md:dark:text-light-purple" aria-current="page">
+                            <a href="#hero" class="block py-2 pl-3 pr-4 text-light-purple bg-white rounded md:bg-transparent md:text-light-purple md:p-0 md:dark:text-light-purple" aria-current="page">
                                 {t("navbar.home")}
                             </a>
                         </li>
